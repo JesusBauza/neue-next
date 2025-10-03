@@ -27,7 +27,7 @@ export default function Header() {
     <header
       className={`${
         isOnAboutPage ? "bg-black" : ""
-      } absoulute top-0 left-0 w-full p-6 z-50`}
+      } absoulute top-0 left-0 w-full p-6 pb-0 z-50`}
     >
       <nav
         className={`flex justify-between items-center ${

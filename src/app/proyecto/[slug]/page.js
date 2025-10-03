@@ -85,14 +85,14 @@ export default function ProjectPage({ params }) {
   const slides = project.gallery.map((image) => ({ src: image.url }));
 
   return (
-    <main className="pl-[18px] lg:py-[20px] pr-[16px]">
-      <section className="flex flex-col xl:flex-row xl:gap-[143px] mt-[219px] xl:mb-[64px]">
+    <main className="pl-[18px] lg:pb-[20px] pr-[16px]">
+      <section className="flex flex-col xl:flex-row xl:gap-[143px] mt-[10.06rem] md:mt-[23.25rem] xl:mb-[64px]">
         <RevealAnimation delay={0.1} className="flex items-end overflow-hidden">
-          <h1 className="w-72 sm:w-[750px] justify-start text-black text-5xl sm:text-[4.5rem] md:text-[7.5rem] font-medium  uppercase leading-10 sm:leading-15 md:leading-[118px] whitespace-pre-line">
+          <h1 className="w-72 sm:w-[750px] justify-start tracking-[-0.06rem] md:tracking-[-0.2rem] text-black text-[42px] sm:text-[4.5rem] md:text-[7.5rem] font-medium  uppercase leading-[40.25px] sm:leading-15 md:leading-[118px] whitespace-pre-line">
             {project.title}
           </h1>
         </RevealAnimation>
-        <div className="mt-[52px] mb-[20px] flex flex-row   justify-between lg:gap-[111px] text-black text-xs font-bold  uppercase leading-none">
+        <div className="mt-[52px] mb-[20px] flex flex-row   justify-between lg:gap-[111px] text-black text-[10.5px] md:text-[1rem] font-bold  uppercase leading-none">
           <ul className="flex flex-col justify-end">
             {project.category.map((cat, index) => (
               <li key={index}>
@@ -122,16 +122,16 @@ export default function ProjectPage({ params }) {
         </SimpleParallax>
       </RevealAnimation>
       <section className=" mt-[80px] lg:mt-[64px] lg:flex lg:flex-row lg:justify-between">
-        <h3 className="mb-[32px] self-stretch justify-start text-black text-[30px] font-bold uppercase ">
+        <h3 className="mb-[32px] self-stretch justify-start text-black text-[1.6rem] font-bold uppercase ">
           Project Info
         </h3>
-        <div className="md:w-[43.12rem] flex flex-col md:flex-row gap-[64px] lg:gap-[1.25rem] justify-start text-black text-base font-bold leading-none">
+        <div className="md:w-[43.12rem] flex flex-col md:flex-row gap-[64px] lg:gap-[1.25rem] justify-start text-black text-[1.2rem] font-bold leading-[1.4rem]">
           <p>{project.info1}</p>
           <p>{project.info2}</p>
         </div>
       </section>
-      <section className="flex flex-row gap-[61px] mt-[153px] lg:justify-between">
-        <h3 className="text-black text-[30px] font-bold uppercase leading-none">
+      <section className="flex flex-row gap-[61px] mt-[153px] lg:mt-[15rem] lg:justify-between">
+        <h3 className="text-black text-[1.6rem] font-bold uppercase leading-none">
           Credits
         </h3>
         <div className="flex flex-col gap-[1rem]">
@@ -139,10 +139,10 @@ export default function ProjectPage({ params }) {
             // 2. Creamos un div para cada crédito con una key única
             <div key={index} className="flex flex-col lg:w-[43.12rem] ">
               {/* 3. Mostramos el nombre y el rol de cada crédito */}
-              <span className="self-stretch justify-start text-black text-base font-medium  leading-none">
+              <span className="self-stretch justify-start text-black text-[1.2rem] font-medium  leading-none">
                 {credit.name}
               </span>
-              <span className="self-stretch justify-start text-neutral-400 text-base font-normal  leading-7">
+              <span className="self-stretch justify-start text-neutral-400 text-[1.2rem] font-normal  leading-7">
                 {credit.role}
               </span>
             </div>
@@ -157,8 +157,8 @@ export default function ProjectPage({ params }) {
 
             const heightClass =
               image.type === "vertical"
-                ? "sm:h-[50vh] lg:h-[90vh]"
-                : "sm:h-[70vh] lg:h-[90vh]";
+                ? "sm:h-[50vh] lg:h-[47.81rem] lg:aspect-[232/255]"
+                : "sm:h-[70vh] lg:h-[100%]";
             return (
               <div
                 key={i}
@@ -181,7 +181,7 @@ export default function ProjectPage({ params }) {
         </div>
 
         {relatedProjects.length > 0 && (
-          <div className="w-full mt-[129px]">
+          <div className="w-full mt-[129px] lg:mt-[13.19rem]">
             <h2 className="w-96 lg:w-full justify-start text-black text-6xl lg:text-9xl font-medium uppercase leading-[66px] lg:leading-[122px] mb-[39px]">
               Related Works
             </h2>
@@ -190,7 +190,11 @@ export default function ProjectPage({ params }) {
                 <div
                   key={relatedProject.slug}
                   // Si el índice es 1 (el segundo elemento), aplica la clase de alineación
-                  className={index === 1 ? "md:justify-self-end" : ""}
+                  className={
+                    index === 1
+                      ? "md:justify-self-end"
+                      : "md:justify-self-start"
+                  }
                 >
                   <ProjectCard
                     key={relatedProject.slug}
