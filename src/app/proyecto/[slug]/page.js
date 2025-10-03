@@ -182,7 +182,7 @@ export default function ProjectPage({ params }) {
 
         {relatedProjects.length > 0 && (
           <div className="w-full mt-[129px] lg:mt-[13.19rem]">
-            <h2 className="w-96 lg:w-full justify-start text-black text-6xl lg:text-9xl font-medium uppercase leading-[66px] lg:leading-[122px] mb-[39px]">
+            <h2 className="w-[100%] lg:w-full justify-start text-black text-6xl lg:text-9xl font-medium uppercase leading-[66px] lg:leading-[122px] mb-[39px]">
               Related Works
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-[32px]">
