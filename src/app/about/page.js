@@ -8,8 +8,9 @@ export default function About() {
         and designing with differentiation as our true north. We believe in
         challenging conventions and crafting bold identities that make brands
         impossible to ignore. With over 16 trusted brand partnerships under our
-        belt, we've proven that great design isn't just about looking good—it's
-        about standing out in a crowded world. Available Worldwide.
+        belt, we&apos;ve proven that great design isn&apos;t just about looking
+        good—it&apos;s about standing out in a crowded world. Available
+        Worldwide.
       </p>
       <p>
         Our services: Naming, Web Development, Branding & Creative direction
@@ -19,7 +20,7 @@ export default function About() {
         <Link href="mailto:hello@neueidea.com" className="peer">
           Email.
         </Link>
-        <span className="peer-hover:text-[#0008FF]">Let's talk. </span>
+        <span className="peer-hover:text-[#0008FF]">Let&apos;s talk. </span>
       </div>
     </main>
   );

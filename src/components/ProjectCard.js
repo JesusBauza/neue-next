@@ -8,10 +8,11 @@ import SimpleParallax from "simple-parallax-js";
 import { delay, scale } from "framer-motion";
 
 export default function ProjectCard({ project, index, variant = "default" }) {
+  const [isHovered, setIsHovered] = useState(false);
+
   if (!project) return null;
 
   // 2. Crea un estado para saber si la tarjeta está en hover
-  const [isHovered, setIsHovered] = useState(false);
 
   const titleClass =
     variant === "compact"
