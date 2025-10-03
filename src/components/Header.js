@@ -127,7 +127,11 @@ export default function Header() {
         </div>
 
         <button
-          className="ml-auto md:hidden z-[110]"
+          className={`ml-auto md:hidden z-[110] ${
+            isMenuOpen
+              ? "fixed right-[29px] top-[25px]"
+              : "absolute right-[29px] top-[25px]"
+          }`}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <svg
@@ -147,7 +151,7 @@ export default function Header() {
             />
             {/* Línea inferior */}
             <path
-              className="bottom-line"
+              className="bottom-line "
               d="M52 11.5H13.7027"
               stroke={
                 isOnAboutPage && isMenuOpen
