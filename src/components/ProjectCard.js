@@ -44,7 +44,7 @@ export default function ProjectCard({ project, index, variant = "default" }) {
         <div className="overflow-hidden will-change-transform">
           <SimpleParallax
             scale={1.2}
-            delay={1}
+            delay={0.8}
             transition="cubic-bezier(0,0,0,1)"
           >
             <Image
