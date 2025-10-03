@@ -41,7 +41,7 @@ export default function ProjectCard({ project, index, variant = "default" }) {
       onMouseLeave={() => setIsHovered(false)}
     >
       <RevealAnimation delay={index * 0.1}>
-        <div className="overflow-hidden">
+        <div className="overflow-hidden will-change-transform">
           <SimpleParallax
             scale={1.2}
             delay={1}
