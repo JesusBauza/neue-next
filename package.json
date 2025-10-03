@@ -1,0 +1,30 @@
+{
+  "name": "neue-idea",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@barba/core": "^2.10.3",
+    "@studio-freight/lenis": "^1.0.42",
+    "framer-motion": "^12.23.21",
+    "gsap": "^3.13.0",
+    "next": "15.5.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-modal-image": "^2.6.0",
+    "simple-parallax-js": "^6.3.3",
+    "yet-another-react-lightbox": "^3.25.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.4",
+    "tailwindcss": "^4"
+  }
+}
