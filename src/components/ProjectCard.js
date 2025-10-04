@@ -61,7 +61,7 @@ export default function ProjectCard({ project, index, variant = "default" }) {
           <div className="flex items-center justify-between w-full">
             <h3 className={titleClass}>{project.title}</h3>
             <RollingTextLink
-              href={`/proyecto/${project.slug}`}
+              href={`/project/${project.slug}`}
               text={project.category[0]}
               hoverText="View Details"
               isTransitionLink={false}
