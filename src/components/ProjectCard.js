@@ -35,7 +35,7 @@ export default function ProjectCard({ project, index, variant = "default" }) {
   return (
     // 3. Añade los eventos onMouseEnter y onMouseLeave a la tarjeta principal
     <TransitionLink
-      href={`/proyecto/${project.slug}`}
+      href={`/project/${project.slug}`}
       className={`group block w-full ${wCard}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
