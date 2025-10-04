@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "About", // Este texto aparecerá en la plantilla del título
+  description: "Conoce más sobre la historia y el enfoque del estudio.",
+};
+
 export default function About() {
   return (
     <main className="px-[20px] h-full bg-black text-white text-[18px] [@media(min-height:700px)]:text-[21px] sm:text-2xl xl:text-3xl font-bold leading-6 sm:leading-7 flex flex-col gap-[25.37px]">
