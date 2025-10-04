@@ -90,7 +90,7 @@ export default function Header() {
           } text-[0.8rem] font-bold  uppercase leading-none`}
         >
           <RevealAnimation delay={0.3}>
-            <RollingTextLink href="/proyecto/proyecto-ejemplo" text="Works">
+            <RollingTextLink href="/" text="Works">
               Works
             </RollingTextLink>
           </RevealAnimation>
