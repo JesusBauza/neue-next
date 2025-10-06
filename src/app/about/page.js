@@ -7,14 +7,14 @@ export const metadata = {
 
 export default function About() {
   return (
-    <main className="px-[20px] h-full bg-black text-white text-[18px] [@media(min-height:700px)]:sm:text-[21px] sm:text-2xl xl:text-3xl font-bold leading-6 sm:leading-7 flex flex-col gap-[25.37px]">
+    <main className="px-[20px] h-full bg-black text-white text-[18px] [@media(min-height:700px)_and_(max-width:640px)]:text-[21px] sm:text-2xl xl:text-3xl font-bold leading-6 sm:leading-7 flex flex-col gap-[25.37px]">
       <p className="mt-[25px]">
         Creative studio based on Margarita Island, shaking up the established
         and designing with differentiation as our true north. We believe in
         challenging conventions and crafting bold identities that make brands
-        impossible to ignore. With over 16 trusted brand partnerships under our
-        belt, we&apos;ve proven that great design isn&apos;t just about looking
-        good—it&apos;s about standing out in a crowded world. Available
+        impossible to ignore. With over 16 trusted brand partnerships under
+        'our' belt, we&apos;ve proven that great design isn&apos;t just about
+        looking good—it&apos;s about standing out in a crowded world. Available
         Worldwide.
       </p>
       <p>
