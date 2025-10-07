@@ -6,9 +6,6 @@
         "category": [
             "Branding",
             "Digital Design",
-            "Naming",
-            "Branding",
-            "Digital Design",
             "Naming"
         ],
         "home_cover": "https://res.cloudinary.com/dtkqz3wwo/image/upload/v1756946204/large_1_Marca_grafica_copy_2x_98fe8c3b15.webp",
@@ -33,10 +30,6 @@
             {
                 "type": "vertical",
                 "url": "https://res.cloudinary.com/dtkqz3wwo/image/upload/v1756946204/1_Marca_grafica_copy_2x_98fe8c3b15.webp"
-            },
-            {
-                "type": "vertical",
-                "url": "https://res.cloudinary.com/dtkqz3wwo/image/upload/v1753385216/65da1d5e558561381a824261159f791ad28cf4fe_4292cf4642.jpg"
             },
             {
                 "type": "horizontal",
