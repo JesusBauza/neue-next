@@ -36,5 +36,43 @@
                 "url": "https://res.cloudinary.com/dtkqz3wwo/image/upload/v1756946228/2_avatar_2x_f0ef672a3a.webp"
             }
         ]
+    },
+    {
+        "slug": "merezco-and-merezco",
+        "title": "Merezco \n& Merezco",
+        "year": 2025,
+        "category": [
+            "Branding",
+            "Digital Design",
+            "Naming"
+        ],
+        "home_cover": "https://res.cloudinary.com/dtkqz3wwo/image/upload/v1756946204/large_1_Marca_grafica_copy_2x_98fe8c3b15.webp",
+        "project_cover": "https://res.cloudinary.com/dtkqz3wwo/image/upload/v1756946228/large_2_avatar_2x_f0ef672a3a.webp",
+        "info1": "Merezco y Merezco is a name that plays with repetition to create a cycle of self-affirmation and reflection. The first 'Merezco' (I Deserve) represents an internal recognition of personal worth, while the second emphasizes the right to celebrate and express that worth. It's an echo of self-esteem, authenticity, and personal style.",
+        "info2": "This repetition creates a rhythm that reinforces the idea that being deserving requires no justification: it is sufficient, whole, and continuous. In the context of an online accessories store, this name invites customers to choose pieces not just for their appearance, but because they represent who a person already is and everything they deserve to become.",
+        "credits": [
+            {
+                "name": "Eduardo Carvajal",
+                "role": "Naming Creator"
+            },
+            {
+                "name": "Jesus Bauza",
+                "role": "Designer"
+            }
+        ],
+        "gallery": [
+            {
+                "type": "horizontal",
+                "url": "https://res.cloudinary.com/dtkqz3wwo/image/upload/v1756946979/1_Marca_grafica_9d685f6284.svg"
+            },
+            {
+                "type": "vertical",
+                "url": "https://res.cloudinary.com/dtkqz3wwo/image/upload/v1756946204/1_Marca_grafica_copy_2x_98fe8c3b15.webp"
+            },
+            {
+                "type": "horizontal",
+                "url": "https://res.cloudinary.com/dtkqz3wwo/image/upload/v1756946228/2_avatar_2x_f0ef672a3a.webp"
+            }
+        ]
     }
 ]
