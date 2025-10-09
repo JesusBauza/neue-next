@@ -64,13 +64,6 @@ export const metadata = {
     template: "%s | Neue Idea",
   },
   description: "Un portafolio de diseño y desarrollo web...",
-
-  // 👇 AÑADE ESTE OBJETO "icons" 👇
-  icons: {
-    icon: "https://res.cloudinary.com/dtkqz3wwo/image/upload/v1756931423/NeueIdea_Favicon_l0pcl0.svg", // URL de tu favicon principal
-    apple:
-      "https://res.cloudinary.com/dtkqz3wwo/image/upload/v1756931423/NeueIdea_Favicon_l0pcl0.svg", // URL de tu ícono para Apple
-  },
 };
 
 export default function RootLayout({ children }) {
