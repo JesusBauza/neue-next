@@ -12,7 +12,7 @@ export default function About() {
         Creative studio based on Margarita Island, shaking up the established
         and designing with differentiation as our true north. We believe in
         challenging conventions and crafting bold identities that make brands
-        impossible to ignore. With over 16 trusted brand partnerships under our
+        impossible to ignore. With over 20 trusted brand partnerships under our
         belt, we&apos;ve proven that great design isn&apos;t just about looking
         good—it&apos;s about standing out in a crowded world. Available
         Worldwide.
