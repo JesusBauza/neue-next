@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function About() {
   return (
-    <main className="px-[20px] h-full bg-black text-white text-[18px] [@media(min-height:700px)_and_(max-width:640px)]:text-[1.5rem] sm:text-2xl xl:text-3xl font-bold leading-6 sm:leading-7 flex flex-col gap-[25.37px]">
+    <main className="px-[20px] h-full bg-black text-white text-[18px] [@media(min-height:700px)_and_(max-width:640px)]:text-[1.8rem] sm:text-2xl xl:text-3xl font-bold leading-6 sm:leading-7 flex flex-col gap-[25.37px]">
       <p className="mt-[25px]">
         Creative studio based on Margarita Island, shaking up the established
         and designing with differentiation as our true north. We believe in
